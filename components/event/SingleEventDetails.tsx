@@ -26,8 +26,8 @@ const SingleEventDetails = ({ event }: Props) => {
           src={`/${event.image}`}
           alt={event.title}
           className='w-40 md:w-[20rem] h-40 md:h-[20rem] overflow-hidden rounded-full border-[5px] border-white object-cover'
-          width={160}
-          height={160}
+          width={320}
+          height={320}
         />
         <div className='text-[#a7f7ec]'>
           <div className='flex flex-col justify-center gap-1 mb-2 '>

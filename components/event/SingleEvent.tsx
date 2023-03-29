@@ -17,8 +17,8 @@ const SingleEvent = ({ event }: Props) => {
         src={`/${event.image}`}
         alt={event.title}
         className='w-full md:w-[40%] h-[10rem] md:h-[14rem] object-cover'
-        width={250}
-        height={160}
+        width={400}
+        height={300}
       />
       <div className='bg-white py-8 px-6 text-center md:text-left md:w-[60%] md:grid items-center'>
         <h3 className='font-bold mb-4'>{event.title}</h3>
