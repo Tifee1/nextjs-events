@@ -7,6 +7,7 @@ import {
 } from '../../components/helpers/db-utils'
 import EventComments from '../../components/event/EventComments'
 import SingleEventDetails from '../../components/event/SingleEventDetails'
+import Head from 'next/head'
 
 type Props = {
   event: Event
@@ -15,6 +16,10 @@ type Props = {
 const EventDetails = ({ event }: Props) => {
   return (
     <>
+      <Head>
+        <title>{event.title}</title>
+        <meta name='description' content={event.description} />
+      </Head>
       <SingleEventDetails event={event} />
       <EventComments id={event.id} />
     </>
