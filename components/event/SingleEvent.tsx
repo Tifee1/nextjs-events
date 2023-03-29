@@ -2,12 +2,12 @@ import Link from 'next/link'
 import { AiOutlineCalendar } from 'react-icons/ai'
 import { BiMap } from 'react-icons/bi'
 import { FaArrowRight } from 'react-icons/fa'
-import { Dummy } from '../../dummy_data/dumm'
 import dayjs from 'dayjs'
 import Image from 'next/image'
+import { Event } from '../helpers/db-utils'
 
 type Props = {
-  event: Dummy
+  event: Event
 }
 
 const SingleEvent = ({ event }: Props) => {

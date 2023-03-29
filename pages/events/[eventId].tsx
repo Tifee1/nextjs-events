@@ -5,7 +5,6 @@ import {
   getEventById,
   getFeaturedEvents,
 } from '../../components/helpers/db-utils'
-import Image from 'next/image'
 import EventComments from '../../components/event/EventComments'
 import SingleEventDetails from '../../components/event/SingleEventDetails'
 
